@@ -1,0 +1,55 @@
+.current-slot{
+  /*color: #00549e;*/
+  font-weight: bold;
+}
+
+.navbar-padding {
+  padding-top: 50px;
+}
+
+.social{
+  width: 22px;
+  height: auto;
+}
+
+.navbar-brand-logo{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  width: 40px;
+  height: auto;
+  color: rgb(241, 244, 83);
+}
+
+.ticketbutton {
+    color:#FFFFFF !important;
+    background-color:#d85d33;
+    margin-top:5px;
+}
+
+.ticketbutton:hover {
+    color:#FFFFFF !important;
+    background-color:#d85d33 !important;
+
+}
+
+.map{
+  height: 30vh;
+}
+
+.slidelink, .youtubelink {
+  text-decoration:none !important;
+}
+.youtubelink {
+  padding-left:20px;
+}
+.linkicon {
+  padding-right:5px;
+}
+
+.linkdisabled {
+  color:#cccccc;
+}
+
+.linkdisabled:hover {
+  color:#cccccc;
+}
