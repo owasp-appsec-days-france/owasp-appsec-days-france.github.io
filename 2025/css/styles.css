@@ -12686,3 +12686,11 @@ header.masthead .h1 {
   font-family: "Barlow";
   padding-bottom: 2rem;
 }
+
+.logo-gold {
+  height: 200px;
+}
+
+.logo-silver {
+  height: 100px;
+}
