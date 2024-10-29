@@ -12692,5 +12692,5 @@ header.masthead .h1 {
 }
 
 .logo-silver {
-  height: 100px;
+  max-height: 100px;
 }
