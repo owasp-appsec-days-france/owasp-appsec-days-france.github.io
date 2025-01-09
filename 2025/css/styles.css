@@ -12688,9 +12688,11 @@ header.masthead .h1 {
 }
 
 .logo-gold {
-  height: 200px;
+  max-height: 100px;
+  max-width: 100%;
 }
 
 .logo-silver {
-  max-height: 100px;
+  max-height: 80px;
+  max-width: 100%;
 }
