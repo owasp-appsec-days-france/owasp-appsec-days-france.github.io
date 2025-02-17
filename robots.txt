@@ -1,4 +1,5 @@
 User-Agent: *
+Sitemap: https://www.owaspappsecdays.fr/sitemap.xml
 Disallow:
 
 
