@@ -12696,3 +12696,7 @@ header.masthead .h1 {
   max-height: 80px;
   max-width: 100%;
 }
+
+.avatar {
+  /* border-radius: 50%; */
+}
