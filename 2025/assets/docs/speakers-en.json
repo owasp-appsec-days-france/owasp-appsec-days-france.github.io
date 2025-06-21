@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Roni Carta alias Lupin",
+        "img": "../assets/img/cori.jpg",
+        "status": "Co-Founder of Lupin & Holmes",
+        "title": "Keynote Speaker",
+        "description": ""
+    },
+    {
+        "name": "Dwayne McDaniel",
+        "img": "../assets/img/dwayne-mcdaniel.png",
+        "status": "Developer Advocate at GitGuardian and huge fan of open source",
+        "title": "What to Tell Your Developers About NHI Security and Governance",
+        "description": "Non-Human Identities (NHIs) outnumbered humans 45 to 1 in 2022. Given that their access abuse is one of the most easily exploited attack paths, we really need to get a handle on NHI security right now. But how do we start? What do we even tell the developer? We can't tell them to just not keep building applications and secrets security alone has not addressed all the concerns NHI security requires. \nOnce again, OWASP is here to shed some light on the situation right as this issue becomes a major, main steam concern. In January of 2025, they released the Top 10 Non-Human Identity Risks, which highlights exactly how NHIs keep getting exploited and gives us a guide to raising awareness and prioritizing and remediating the situation inside our organizations. \n        But they are not the only ones who released a guide or even a top 10 list. This talk will guide us through the commonalities of all the published wisdom around NHI security, and we will end with a discussion that governance is a path forward but will need to go through IAM and, eventually, the whole organization.\n"
+    },
+    {
+        "name": "Daniel Garnier-Moiroux",
+        "img": "../assets/img/daniel-garnier-moiroux.jpg",
+        "status": "Software Engineer, Spring",
+        "title": "Des applis sans mot de passe: Passkeys en pratique",
+        "description": "Tout le monde a des mots de passe - et beaucoup de gens en ont un seul! Ils se font voler par millions par des hackers, et circulent sur internet: une bombe à retardement en termes de sécurité.\n\nOn peut aujourd'hui utiliser les \"passkeys\" pour prouver cryptographiquement son identité avec une clef privée. L'expérience utilisateur offerte par les plateformes est simple et efficace: on peut se logguer avec la biométrie de son téléphone ou encore son gestionnaire de mot de passe, sans jamais avoir à gérer directement des clefs de chiffrement. Côté développeurs web, l’implémentation suit la spécification W3C  “WebAuthN”, qui est bien supportée par tous les browsers modernes mais assez riche.\n\nDans cette présentation, vous découvrirez les bases du fonctionnement des passkeys, puis, via un live-coding, comment intégrer l’authentification par passkey dans une application Spring. Vous comprendrez les mécanismes mis en jeu, les implications pour l’expérience utilisateur et l’impact sur l’implémentation de vos applications."
+    },
+    {
+        "name": "François Proulx",
+        "img": "../assets/img/francois-proulx.jpg",
+        "status": "Senior Product Security Engineer at BoostSecurity",
+        "title": "Living Off the Pipeline: From Supply Chain 0-Days to Predicting the next XZ-like attacks",
+        "description": "The next wave of Supply Chain attacks is brewing in our Build Pipelines (CI/CD), where 0-days and novel attack paths are still waiting to be discovered. In 2024, the XZ compression library compromise was used as a trojan horse to backdoor OpenSSH, thankfully, this was caught early on, but the next time it might go unnoticed for much longer. This talk picks up where we left off last year, and we tell the story of how we went from finding 0-day vulnerabilities in the Build Pipelines of critical Open Source packages to predicting TTPs for the next XZ-like attacks. This time we've adapted MITRE's ATT&CK framework for CI/CD environments. We'll go in depth on how Threat Actors can \"Live Off the Pipeline\" by abusing legitimate build tools to do their bidding proving why this has become Red Teamer's favorite new soft spot.\n\nThe session introduces practical methods for predicting and identifying threats before they materialize by mapping build pipeline tactics to our adapted ATT&CK model. Real-world case studies, based on our forensics of the recent Kong Kubernetes Ingress Controller and Ultralytics YOLOv5 ML library compromises, will demonstrate how adversaries exploit build pipelines, escalate privileges, and can remain undetected long enough to have significant impact.\n\nThis session empowers attendees to proactively identify and defend against advanced supply chain attacks, effectively countering adversaries that seek to \"Live Off the Pipeline\" as demonstrated in the XZ compromise."
+    },
+    {
+        "name": "Edouard Viot",
+        "img": "../assets/img/edouard-viot.jpg",
+        "status": "CTO at Symbiotic Security",
+        "title": "Remédiation automatique de vulnérabilités : que valent vraiment les LLMs ?",
+        "description": "Les modèles de langage (LLMs) promettent d’assister les développeurs dans la correction de vulnérabilités de sécurité, mais leurs performances réelles restent largement inexplorées ou mal évaluées. Ce talk propose un retour d’expérience concret sur une série d’expérimentations visant à mesurer, comparer et améliorer la capacité des LLMs à corriger des vulnérabilités dans le code.\n\nNous présenterons une méthodologie rigoureuse de benchmark entre plusieurs modèles (GPT, Claude, Mistral, etc.), sur des cas réels de vulnérabilités (XSS, SQLi, SSRF, etc.), en analysant à la fois le taux de remédiation correcte, la précision sémantique, et les erreurs de sécurité introduites par inadvertance.\n\nAu-delà de la comparaison brute des modèles, nous explorerons différentes techniques pour améliorer significativement les résultats :\n\nEnrichissement du prompt avec des données qualitatives (explications, contexte métier, exemples positifs),\n\nUtilisation de chaînes d’inférence structurées plutôt que de simples requêtes “one-shot”,\n\nExpérimentation d’une approche agentique, où le LLM agit par étapes pour comprendre, corriger et auto-vérifier la sécurité du patch proposé.\n\nCe talk s’adresse aux développeurs, DevSecOps, chercheurs et product builders intéressés par l’usage pratique des LLMs dans l’ingénierie de sécurité applicative."
+    },
+    {
+        "name": "Adeline Villette",
+        "img": "../assets/img/adeline-villette.png",
+        "status": "Head of Cybersecurity Expertise and Innovation at Decathlon",
+        "title": "Behind the scenes of creating an AI Cyber Assistant",
+        "description": "Where on Earth is the Security documentation when I need it? And that desperate search is an experience shared by many, regardless of their job title. Internal documentation, policies, processes and security metrics might be hard to communicate and be well-known to the targeted public. It's often challenging to promote cybersecurity effectively throughout a company.\n        At Decathlon, we tackled this challenge by developing a Cyber AI Assistant. Generative AI technology can make the difference not only by retrieving the right information but also by contextualizing answers and guiding users to the right direction. \n        \n        Discover how Decathlon cybersecurity teams connect the dots with the employees to distill the cybersecurity practices and guidances by building a Cyber AI Assistant. \n        Beyond technology, we'll tell you about the real challenges encountered: how did we make our choices and overcome technical, processes and organizational obstacles? We will share our key learnings, successes as well as difficulties, and the valuable initial feedback from our employees.\n        \n        Our goal: to pass on the concrete lessons learned from this adventure to help you launch or evolve your own security culture initiatives."
+    },
+    {
+        "name": "Jérôme Dupuis",
+        "img": "../assets/img/jerome-dupuis.jpg",
+        "status": "Head of Cybersecurity Expertise and Innovation at Decathlon",
+        "title": "Behind the scenes of creating an AI Cyber Assistant",
+        "description": "Where on Earth is the Security documentation when I need it? And that desperate search is an experience shared by many, regardless of their job title. Internal documentation, policies, processes and security metrics might be hard to communicate and be well-known to the targeted public. It's often challenging to promote cybersecurity effectively throughout a company.\n        At Decathlon, we tackled this challenge by developing a Cyber AI Assistant. Generative AI technology can make the difference not only by retrieving the right information but also by contextualizing answers and guiding users to the right direction. \n        \n        Discover how Decathlon cybersecurity teams connect the dots with the employees to distill the cybersecurity practices and guidances by building a Cyber AI Assistant. \n        Beyond technology, we'll tell you about the real challenges encountered: how did we make our choices and overcome technical, processes and organizational obstacles? We will share our key learnings, successes as well as difficulties, and the valuable initial feedback from our employees.\n        \n        Our goal: to pass on the concrete lessons learned from this adventure to help you launch or evolve your own security culture initiatives."
+    },
+    {
+        "name": "Mert Coskuner",
+        "status": "Principal Product Security Engineer",
+        "img": "../assets/img/mert-coskuner.jpg",
+        "title": "Securing CI/CD runners through eBPF",
+        "description": "CI/CD pipelines are complex environments. This complexity requires methodical comprehensive reviews to secure the entire stack. Often a company may lack the time, specialist security knowledge, and people needed to secure their CI/CD pipelines. Realising these facts; cyberattacks targeting CI/CD pipelines has been gaining momentum, and attackers increasingly understand that build pipelines are highly-privileged targets with a substantial attack surface. In this presentation, we will share some of our observation through showing different flavours of attack on possible development pipelines, and introduce a tool to detect them."
+    },
+    {
+        "name": "Cenk Kalpakoglu",
+        "status": "Co-founder & CEO of Kondukto Inc",
+        "img": "../assets/img/cenk-kalpakoglu.jpg",
+        "title": "Securing CI/CD runners through eBPF",
+        "description": "CI/CD pipelines are complex environments. This complexity requires methodical comprehensive reviews to secure the entire stack. Often a company may lack the time, specialist security knowledge, and people needed to secure their CI/CD pipelines. Realising these facts; cyberattacks targeting CI/CD pipelines has been gaining momentum, and attackers increasingly understand that build pipelines are highly-privileged targets with a substantial attack surface. In this presentation, we will share some of our observation through showing different flavours of attack on possible development pipelines, and introduce a tool to detect them."
+    },
+    {
+        "name": "Nourredine Khadri",
+        "status": "AppSec Program Leader at Worldline",
+        "img": "../assets/img/nourredine-khadri.jpg",
+        "title": "Worldline's Security Champions Program: Driving DevSecOps Culture and Compliance Readiness",
+        "description": "Worldline embarked on a journey to transform its software development security practices, driven by increasing compliance requirements (ISO27K, GDPR, PCI-DSS, DORA, ...) and the need for a robust DevSecOps culture. Faced with limited resources, we implemented a Security Champions Program to empower developers and scale security expertise across the organization. This presentation will share our practical experience building and scaling this program, focusing on actionable strategies, measurable results, and key lessons learned. We'll delve into: \n- Program Design: Our approach to selecting, training, and supporting Security Champions.\n- Key Metrics: How we measured the program's impact, including a +85% improvement in project security posture and PCI-DSS QSA approval for specific compliance controls.\n- Challenges and Solutions: The obstacles we encountered and how we overcame them, including securing management buy-in, maintaining engagement, and addressing skills gaps.\n- Future Directions: Our plans for evolving the program and integrating it further into our DevSecOps strategy.\nAttendees will gain valuable insights and actionable takeaways for implementing or improving their own Security Champions programs and fostering a stronger security culture within their organizations."
+    }
+]

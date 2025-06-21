@@ -9,17 +9,17 @@
     <meta name="author" content="" />
     <title>OWASP AppSec Days France 2025 - Conférence Sécurité Applicative</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <!-- Bootstrap Icons-->
-    <link href="css/bootstrap/bootstrap-icons.css" rel="stylesheet" />
-    <link href="css/bootstrap/bootstrap-icons.css" rel="preload" as="style" />
+    <link href="../css/bootstrap/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../css/bootstrap/bootstrap-icons.css" rel="preload" as="style" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="preload" as="style" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="preload" as="style" />
+    <link href="../css/styles.css" rel="stylesheet" />
     <!-- Preload fonts-->
-    <link href="assets/fonts/Barlow/Barlow-Bold.ttf" rel="preload" as="font" />
-    <link href="assets/fonts/Barlow/Barlow-Regular.ttf" rel="preload" as="font" />
-    <link href="assets/fonts/Poppins/Poppins-SemiBold.ttf" rel="preload" as="font" />
+    <link href="../assets/fonts/Barlow/Barlow-Bold.ttf" rel="preload" as="font" />
+    <link href="../assets/fonts/Barlow/Barlow-Regular.ttf" rel="preload" as="font" />
+    <link href="../assets/fonts/Poppins/Poppins-SemiBold.ttf" rel="preload" as="font" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -47,7 +47,7 @@
     </script>
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="load_speakers('fr')">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
@@ -73,7 +73,7 @@
                             <a class="dropdown-item" href="https://<PATH TO WEBSITE>" target="_blank">2025</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="./en/index.html"> <i class="bi bi-translate"></i>
+                    <li class="nav-item"><a class="nav-link" href="../en/index.html"> <i class="bi bi-translate"></i>
                             [EN]</a></li>
                 </ul>
 
@@ -164,130 +164,9 @@
                             </p>
                             <div>
                                 <h4 style="padding-top: 3rem;">Speakers</h4>
-
                                 <div class="row gx-4 gx-lg-5 justify-content-center">
                                     <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/cori.jpg" class="card-img-top avatar" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Roni Carta alias Lupin </h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Co-Founder of Lupin &
-                                                    Holmes</h6>
-                                                <p class="card-text">Keynote Speaker</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row gx-4 gx-lg-5 justify-content-center">
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/dwayne-mcdaniel.png" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Dwayne McDaniel</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Developer Advocate at
-                                                    GitGuardian and huge fan of open source</h6>
-                                                <p class="card-text">What to Tell Your Developers About NHI Security and
-                                                    Governance</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/daniel-garnier-moiroux.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Daniel Garnier-Moiroux</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Software Engineer,
-                                                    Spring</h6>
-                                                <p class="card-text">Des applis sans mot de passe: Passkeys en pratique
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row gx-4 gx-lg-5 justify-content-center">
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/francois-proulx.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">François Proulx</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Senior Product
-                                                    Security Engineer at BoostSecurity</h6>
-                                                <p class="card-text">Living Off the Pipeline: From Supply Chain 0-Days
-                                                    to Predicting the next XZ-like attacks</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/edouard-viot.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Edouard Viot</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">CTO at Symbiotic
-                                                    Security</h6>
-                                                <p class="card-text">Remédiation automatique de vulnérabilités : que
-                                                    valent vraiment les LLMs ?</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row gx-4 gx-lg-5 justify-content-center">
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/adeline-villette.png" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Adeline Villette</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Head of Cybersecurity
-                                                    Expertise and Innovation at Decathlon</h6>
-                                                <p class="card-text">Behind the scenes of creating an AI Cyber Assistant
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/jerome-dupuis.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Jérôme Dupuis</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Senior Security
-                                                    Engineer</h6>
-                                                <p class="card-text">Behind the scenes of creating an AI Cyber Assistant
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row gx-4 gx-lg-5 justify-content-center">
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/mert-coskuner.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Mert Coskuner</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Principal Product
-                                                    Security Engineer</h6>
-                                                <p class="card-text">Securing CI/CD runners through eBPF</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col text-center">
-                                        <div class="card mx-auto mb-4" style="width: 18rem;">
-                                            <img src="assets/img/cenk-kalpakoglu.jpg" class="card-img-top avatar"
-                                                alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Cenk Kalpakoglu</h5>
-                                                <h6 class="card-subtitle mb-2 text-body-secondary">Co-founder & CEO of
-                                                    Kondukto Inc</h6>
-                                                <p class="card-text">Securing CI/CD runners through eBPF</p>
-                                            </div>
+                                        <div id="speakers" class="d-flex flex-row flex-wrap">
                                         </div>
                                     </div>
                                 </div>
@@ -323,14 +202,14 @@
                                         <div class="col-6 align-content-center">
                                             <a style="text-decoration: none;" href="https://www.gitguardian.com/"
                                                 target="_blank">
-                                                <img class="logo-gold" src="../2025/assets/img/gitguardian-logo.svg"
+                                                <img class="logo-gold" src="../assets/img/gitguardian-logo.svg"
                                                     alt="Gold sponsor GitGuardian" width="100%" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 align-content-center">
                                             <a style="text-decoration: none;" href="https://www.aikido.dev/"
                                                 target="_blank">
-                                                <img class="logo-gold" src="../2025/assets/img/aikidio.webp"
+                                                <img class="logo-gold" src="../assets/img/aikidio.webp"
                                                     alt="Gold sponsor Aikido" /><br>
                                             </a>
                                         </div>
@@ -347,7 +226,7 @@
                                         <div class="col-6 col-xl-3 align-content-center">
                                             <a style="text-decoration: none;" href="https://www.elastic.co/"
                                                 target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/elastic-logo.png"
+                                                <img class="logo-silver" src="../assets/img/elastic-logo.png"
                                                     alt="Silver sponsor Elastic" /><br>
                                             </a>
                                         </div>
@@ -355,22 +234,21 @@
                                             <a style="text-decoration: none;" href="https://www.escape.tech/"
                                                 target="_blank">
                                                 <img class="logo-silver"
-                                                    src="../2025/assets/img/ESCAPE-LOGO-28-07-2021-03.svg"
+                                                    src="../assets/img/ESCAPE-LOGO-28-07-2021-03.svg"
                                                     alt="Silver sponsor Escape" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-xl-3 align-content-center">
                                             <a style="text-decoration: none;" href="https://www.patrowl.io/"
                                                 target="_blank">
-                                                <img class="logo-silver"
-                                                    src="../2025/assets/img/logo_black_horizontal.webp"
+                                                <img class="logo-silver" src="../assets/img/logo_black_horizontal.webp"
                                                     alt="Silver sponsor Patrowl" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-xl-3 align-content-center">
                                             <a style="text-decoration: none;" href="https://worldline.com/"
                                                 target="_blank">
-                                                <img class="logo-silver" src="./assets/img/worldline-logo.svg"
+                                                <img class="logo-silver" src="../assets/img/worldline-logo.svg"
                                                     alt="Silver sponsor Worldline" /><br>
                                             </a>
                                         </div>
@@ -386,42 +264,41 @@
                                     <div class="row">
                                         <div class="col-6 col-md-4 align-content-center p-5">
                                             <a style="text-decoration: none;" href="https://promon.io/" target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/promon.png"
+                                                <img class="logo-silver" src="../assets/img/promon.png"
                                                     alt="Bronze sponsor Promon" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-md-4 align-content-center p-5">
                                             <a style="text-decoration: none;" href="https://www.deloitte.com/fr/fr.html"
                                                 target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/deloitte.png"
+                                                <img class="logo-silver" src="../assets/img/deloitte.png"
                                                     alt="Bronze sponsor Deloitte" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-md-4 align-content-center p-3">
                                             <a style="text-decoration: none;" href="https://fuzzinglabs.com/"
                                                 target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/fuzzinglabs.png"
+                                                <img class="logo-silver" src="../assets/img/fuzzinglabs.png"
                                                     alt="Bronze sponsor FuzzingLabs" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-md-4 align-content-center p-3">
                                             <a style="text-decoration: none;" href="https://api-angel.com/"
                                                 target="_blank">
-                                                <img class="logo-silver"
-                                                    src="../2025/assets/img/api-angel-logo-light.png"
+                                                <img class="logo-silver" src="../assets/img/api-angel-logo-light.png"
                                                     alt="Bronze sponsor API Angel" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-md-4 align-content-center p-3">
                                             <a style="text-decoration: none;" href="https://cyver.io/" target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/cyver.png"
+                                                <img class="logo-silver" src="../assets/img/cyver.png"
                                                     alt="Bronze sponsor Cyver" /><br>
                                             </a>
                                         </div>
                                         <div class="col-6 col-md-4 align-content-center p-3">
                                             <a style="text-decoration: none;" href="https://www.dazle.tech/"
                                                 target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/dazle.png"
+                                                <img class="logo-silver" src="../assets/img/dazle.png"
                                                     alt="Bronze sponsor Dazle" /><br>
                                             </a>
                                         </div>
@@ -437,7 +314,7 @@
                                         <div class="col align-content-center p-3">
                                             <a style="text-decoration: none;" href="https://www.octo.com/"
                                                 target="_blank">
-                                                <img class="logo-silver" src="../2025/assets/img/octo.png"
+                                                <img class="logo-silver" src="../assets/img/octo.png"
                                                     alt="Sponsor Speaker Dinner Octo" /><br>
                                             </a>
                                         </div>
@@ -554,7 +431,7 @@
                             conférence et la mission de la Fondation OWASP (501c3 Not-For-Profit).
                         </p>
                         <div class="primary-btn text-center">
-                            <a href="../2025/assets/docs/OWASP Sponsorship .pdf" target="_blank"
+                            <a href="../assets/docs/OWASP Sponsorship .pdf" target="_blank"
                                 class="btn btn-light btn-xl download-program-btn">Détails pour les sponsors</a>
                         </div>
                     </div>
@@ -692,9 +569,10 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="js/5.2.3bootstrap.bundle.min.js"></script>
+    <script src="../js/5.2.3bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/custom.js"></script>
 </body>
 
 </html>
