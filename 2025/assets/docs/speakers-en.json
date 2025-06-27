@@ -44,7 +44,7 @@
     {
         "name": "Jérôme Dupuis",
         "img": "../assets/img/jerome-dupuis.jpg",
-        "status": "Head of Cybersecurity Expertise and Innovation at Decathlon",
+        "status": "Staff Security Engineer",
         "title": "Behind the scenes of creating an AI Cyber Assistant",
         "description": "Where on Earth is the Security documentation when I need it? And that desperate search is an experience shared by many, regardless of their job title. Internal documentation, policies, processes and security metrics might be hard to communicate and be well-known to the targeted public. It's often challenging to promote cybersecurity effectively throughout a company.\n        At Decathlon, we tackled this challenge by developing a Cyber AI Assistant. Generative AI technology can make the difference not only by retrieving the right information but also by contextualizing answers and guiding users to the right direction. \n        \n        Discover how Decathlon cybersecurity teams connect the dots with the employees to distill the cybersecurity practices and guidances by building a Cyber AI Assistant. \n        Beyond technology, we'll tell you about the real challenges encountered: how did we make our choices and overcome technical, processes and organizational obstacles? We will share our key learnings, successes as well as difficulties, and the valuable initial feedback from our employees.\n        \n        Our goal: to pass on the concrete lessons learned from this adventure to help you launch or evolve your own security culture initiatives."
     },
