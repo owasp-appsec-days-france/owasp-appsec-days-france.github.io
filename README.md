@@ -8,5 +8,5 @@ Based on the [OWASP AppSec Days German conference site](https://god.owasp.de)
 ```
 git clone https://github.com/cotonne/owasp-appsec-days.git
 python3 -m http.server
-firefox http://localhost:8000
+firefox http://localhost:8000/2025/fr/index.html
 ```
