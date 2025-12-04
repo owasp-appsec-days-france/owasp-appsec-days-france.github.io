@@ -561,13 +561,12 @@
     const locales = ['en', 'fr'];
     i18next.init({
       supportedLngs: locales,
-      fallbackLng: 'en',
       resources: {}
     });
     const localize = init(i18next, {
       selectorAttr: 'data-i18n'
     });
-    Promise.all(locales.map((l) => fetch(`_locales/${l}/messages.json`)
+    Promise.all(locales.map((l) => fetch(`locales/${l}/messages.json`)
       .then((r) => r.json())
     )).then((values) => {
       values.forEach((v, i) => i18next.addResources(locales[i], 'translation', v));
