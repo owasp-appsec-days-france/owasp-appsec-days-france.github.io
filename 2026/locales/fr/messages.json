@@ -54,5 +54,8 @@
     "Lieu-Site": "Site de la salle MAS PARIS",
     "A propos-1": "L'OWASP est une communauté mondiale indépendante dont le but est de rendre « visible » l'importance de la sécurité des applications Web, en diffusant le savoir-faire en matière de développement et d'exploitation d'applications Web sécurisées et en le rendant librement disponible. Tous les instruments de l'OWASP, tels que les documents, vidéos, slides, podcasts, etc., peuvent être utilisés gratuitement sous licence libre. <br><br> OWASP est gratuit, ouvert et indépendant de toute entreprise Toute personne intéressée est invitée à travailler sur des projets ou simplement à participer aux connaissances.<br><br De plus amples informations peuvent être trouvées sur <a href=\"https://owasp.org/www-chapter-france/\">le site Web du Chapter France de l'OWASP</a> et sur nos réseaux sociaux.",
     "message-hello": "Hello World",
-    "message-welcome": "Welcome"
+    "message-welcome": "Welcome",
+    "closing-drink-title": "Happy Hour by Aikido 🍸 Paris",
+    "closing-drink-desc": "Rejoignez-nous à la soirée de clôture de la conférence OWASP AppSec Days France & Aikido",
+    "closing-drink-catchphrase": "Click here to register"
 }
